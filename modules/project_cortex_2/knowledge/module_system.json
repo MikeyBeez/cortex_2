@@ -1,0 +1,69 @@
+{
+  "module_system": {
+    "overview": "Modules are the fundamental unit of knowledge and capability in Cortex_2",
+    
+    "module_structure": {
+      "manifest": {
+        "purpose": "Defines module metadata, dependencies, and behavior",
+        "required_fields": ["id", "version", "name", "description"],
+        "key_sections": ["metadata", "dependencies", "resources", "triggers", "content", "behavior"]
+      },
+      
+      "content_types": {
+        "knowledge": "Static information in JSON format",
+        "patterns": "Behavioral patterns and responses",
+        "templates": "Response templates for consistent output",
+        "resources": "Additional files and data"
+      },
+      
+      "triggers": {
+        "keyword_triggers": "Words that suggest module is needed",
+        "pattern_triggers": "Regex patterns for content matching",
+        "context_triggers": "Situational conditions for loading"
+      }
+    },
+    
+    "module_types": {
+      "expertise": {
+        "purpose": "Domain-specific knowledge",
+        "examples": ["python_expertise", "ml_knowledge", "web_development"],
+        "size_range": "10k-100k tokens"
+      },
+      
+      "project": {
+        "purpose": "Project-specific context and knowledge",
+        "examples": ["project_cortex_2", "project_nexus_2", "project_anna"],
+        "components": ["architecture", "api_specs", "patterns", "history"]
+      },
+      
+      "identity": {
+        "purpose": "Personality and behavioral configurations",
+        "examples": ["professional_developer", "friendly_assistant", "technical_expert"],
+        "persistence": "Often kept loaded as base layer"
+      },
+      
+      "tool": {
+        "purpose": "External tool integration and usage patterns",
+        "examples": ["github_integration", "docker_commands", "aws_cli"],
+        "activation": "Usually triggered by specific tasks"
+      }
+    },
+    
+    "lifecycle": {
+      "discovery": "System detects need for module through triggers",
+      "loading": "Module loaded from appropriate storage tier",
+      "activation": "Module integrated into active context",
+      "usage": "Module provides knowledge and capabilities",
+      "deactivation": "Module marked as inactive but kept in memory",
+      "archival": "Module compressed and moved to cold storage"
+    },
+    
+    "best_practices": {
+      "size": "Keep modules focused and under 50k tokens",
+      "dependencies": "Minimize dependencies for fast loading",
+      "triggers": "Design specific but not overly narrow triggers",
+      "versioning": "Use semantic versioning for compatibility",
+      "testing": "Test loading, triggers, and resource usage"
+    }
+  }
+}

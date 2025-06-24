@@ -1,0 +1,61 @@
+{
+  "projects": {
+    "anna": {
+      "description": "Temporal intelligence system with 5 organs (O1-O5)",
+      "status": "operational",
+      "location": "/Users/bard/Code/Anna",
+      "key_features": [
+        "5-organ architecture with different frequencies",
+        "O5 Global Critic with hormonal cocktail system",
+        "Cross-frequency coupling",
+        "10B parameters optimized for RTX 5070 Ti",
+        "Redis-based organ communication"
+      ],
+      "related": ["nexus_2", "cortex"]
+    },
+    "nexus_2": {
+      "description": "Microservices orchestration platform",
+      "status": "operational",
+      "location": "/Users/bard/Code/nexus_2",
+      "key_features": [
+        "6 independent services",
+        "Queue system",
+        "Knowledge graph",
+        "Anna integration",
+        "Error analysis",
+        "Monitoring"
+      ],
+      "related": ["anna", "cortex"]
+    },
+    "cortex": {
+      "description": "Original memory system",
+      "status": "legacy",
+      "location": "/Users/bard/Code/cortex",
+      "evolution": "Being replaced by cortex_2"
+    },
+    "cortex_2": {
+      "description": "Cognitive operating system with dynamic module loading",
+      "status": "in_development",
+      "location": "/Users/bard/Code/cortex_2",
+      "key_features": [
+        "Dynamic module loading/unloading",
+        "Context-aware intelligence",
+        "Identity management",
+        "Three-tier storage",
+        "Self-learning capabilities",
+        "MCP server integration"
+      ],
+      "philosophy": "Everything is a module"
+    },
+    "subconscious": {
+      "description": "Background AI critic system",
+      "status": "deprecated",
+      "superseded_by": "nexus"
+    }
+  },
+  "project_relationships": {
+    "cortex_2_absorbs": ["cortex", "nexus_2_knowledge_graph"],
+    "anna_integrates_with": ["nexus_2", "cortex_2"],
+    "nexus_2_orchestrates": ["anna", "cortex_2", "execution_tasks"]
+  }
+}

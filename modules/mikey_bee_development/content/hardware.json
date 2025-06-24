@@ -1,0 +1,47 @@
+{
+  "hardware": {
+    "mac_mini": {
+      "model": "M1 Mac Mini",
+      "ram": "16GB unified",
+      "storage": "512GB SSD",
+      "role": "primary development machine",
+      "location": "local",
+      "constraints": [
+        "16GB RAM shared between CPU and GPU",
+        "Requires careful memory management",
+        "Excellent for prototyping"
+      ]
+    },
+    "smaug": {
+      "description": "Linux box with RTX 5070 Ti",
+      "ip": "192.168.12.174",
+      "gpu": {
+        "model": "RTX 5070 Ti",
+        "memory": "16GB GDDR7",
+        "cuda_cores": "8,960",
+        "tensor_cores": "280 (5th gen)",
+        "bandwidth": "896 GB/s"
+      },
+      "role": "GPU compute node",
+      "access": "SSH bard@192.168.12.174",
+      "shares": "Samba at smb://192.168.12.174/Code"
+    }
+  },
+  "network": {
+    "subnet": "192.168.12.0/24",
+    "topology": {
+      "mac_mini": "development hub",
+      "smaug": "GPU acceleration",
+      "connection": "local network"
+    }
+  },
+  "development_environment": {
+    "constraint_driven": true,
+    "philosophy": "16GB RAM constraint drives efficient design",
+    "benefits": [
+      "Forces modular architecture",
+      "Encourages efficient code",
+      "Prevents overengineering"
+    ]
+  }
+}

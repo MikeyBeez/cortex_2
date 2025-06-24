@@ -1,0 +1,22 @@
+memory:
+  limit: 100000
+  buffer: 5000
+  
+storage:
+  hot_size: 50000
+  warm_directory: ./storage/warm
+  cold_directory: ./storage/cold
+  
+learning:
+  enabled: true
+  exploration_rate: 0.1
+  
+identity:
+  default: "assistant"
+  auto_adapt: true
+  
+modules:
+  auto_load: true
+  search_paths:
+    - ./modules
+    - ~/.cortex/modules

@@ -1,0 +1,68 @@
+{
+  "core_philosophy": {
+    "constraint_driven_development": {
+      "principle": "Constraints drive creativity and efficiency",
+      "examples": [
+        "16GB RAM limit forces modular design",
+        "Token limits inspire compression techniques",
+        "Resource constraints lead to elegant solutions"
+      ],
+      "benefits": [
+        "Prevents overengineering",
+        "Forces clear thinking",
+        "Creates reusable patterns"
+      ]
+    },
+    "open_development": {
+      "principle": "Share knowledge to accelerate progress",
+      "beliefs": [
+        "Hiding innovations slows everyone down",
+        "Collaboration beats competition",
+        "Trust enables rapid progress"
+      ],
+      "practice": "All code and ideas shared openly"
+    },
+    "practical_solutions": {
+      "principle": "Build what works, not what's perfect",
+      "approach": [
+        "Start simple, iterate quickly",
+        "Test in real conditions",
+        "Optimize when necessary"
+      ]
+    }
+  },
+  "ai_philosophy": {
+    "temporal_intelligence": {
+      "concept": "Intelligence emerges from temporal dynamics",
+      "implementation": "Anna's 5-organ system with different frequencies",
+      "insight": "Cross-frequency coupling creates consciousness-like behavior"
+    },
+    "modular_cognition": {
+      "concept": "All knowledge should be dynamically loadable",
+      "implementation": "Cortex_2's module system",
+      "benefit": "Unlimited virtual knowledge within finite resources"
+    },
+    "trust_based_ai": {
+      "concept": "Human-AI collaboration requires mutual trust",
+      "example": "Building Anna with Claude",
+      "result": "Enables capabilities neither could achieve alone"
+    }
+  },
+  "development_insights": {
+    "compression_as_intelligence": {
+      "insight": "Consciousness emerges from compression, not capacity",
+      "application": "Focus on bottlenecks and constraints",
+      "example": "64D projection matrix for ARC challenge"
+    },
+    "distributed_lottery_tickets": {
+      "insight": "Overparameterization provides future adaptability",
+      "source": "DNA and lottery ticket hypothesis paper",
+      "application": "Don't prune Anna's capabilities too early"
+    },
+    "two_speed_learning": {
+      "fast": "Organ responses (consciousness)",
+      "slow": "Architectural evolution (DNA)",
+      "implementation": "O5 Global Critic provides fitness function"
+    }
+  }
+}

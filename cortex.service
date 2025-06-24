@@ -1,0 +1,20 @@
+[Unit]
+Description=Cortex_2 Cognitive Operating System
+After=network.target
+
+[Service]
+Type=simple
+User=bard
+WorkingDirectory=/Users/bard/Code/cortex_2
+ExecStart=/Users/bard/Code/cortex_2/.venv/bin/python -m cortex.server
+Restart=on-failure
+RestartSec=10
+Environment="PYTHONUNBUFFERED=1"
+Environment="CORTEX_CONFIG=/Users/bard/Code/cortex_2/config/cortex.yaml"
+
+# Logging
+StandardOutput=append:/Users/bard/Code/cortex_2/logs/cortex.log
+StandardError=append:/Users/bard/Code/cortex_2/logs/cortex-error.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,78 @@
+# mikey_bee_development module manifest
+id: mikey_bee_development
+version: 1.0.0
+type: knowledge
+
+metadata:
+  name: Mikey Bee Development Environment
+  description: Knowledge about Mikey Bee's development ecosystem, projects, and preferences
+  author: system
+  created: 2024-01-01T00:00:00Z
+  tags:
+    - development
+    - projects
+    - personal
+    - ecosystem
+
+size:
+  tokens: 25000
+  bytes: 102400
+
+dependencies:
+  required:
+    - python_expertise: ">=1.0.0"
+    - software_patterns: ">=1.0.0"
+  optional:
+    - temporal_intelligence: ">=1.0.0"
+    - distributed_systems: ">=1.0.0"
+
+triggers:
+  keywords:
+    high_confidence:
+      - mikey
+      - anna
+      - nexus
+      - cortex
+      - smaug
+      - mac mini
+      - uv
+      - constraint-driven
+    medium_confidence:
+      - project
+      - development
+      - ecosystem
+      - knowledge graph
+      - temporal
+      - organs
+      
+  patterns:
+    - regex: "(anna|nexus|cortex)_?2?"
+      description: Project names
+      confidence: 0.9
+    - regex: "knowledge.?graph"
+      description: Knowledge graph references
+      confidence: 0.8
+    - regex: "constraint.?driven"
+      description: Development philosophy
+      confidence: 0.9
+      
+  contexts:
+    - development
+    - architecture
+    - planning
+    - personal_projects
+    
+performance:
+  load_time_ms:
+    cold: 300
+    warm: 50
+    hot: 5
+  memory_required_mb: 25
+  
+content:
+  knowledge_files:
+    - content/projects.json
+    - content/preferences.json
+    - content/hardware.json
+    - content/philosophy.json
+    - content/relationships.json

@@ -1,0 +1,46 @@
+{
+  "development_preferences": {
+    "package_manager": "uv",
+    "editor": "vim",
+    "language": "python",
+    "style": {
+      "architecture": "modular",
+      "files": "small_and_focused",
+      "complexity": "minimal",
+      "dependencies": "minimal"
+    },
+    "principles": [
+      "constraint-driven development",
+      "practical over theoretical",
+      "open knowledge sharing",
+      "trust-based collaboration",
+      "no placeholders in code"
+    ]
+  },
+  "tool_preferences": {
+    "python": {
+      "package_manager": "uv",
+      "virtual_env": "uv venv",
+      "install_command": "uv pip install"
+    },
+    "version_control": "git",
+    "testing": "pytest",
+    "documentation": "markdown",
+    "api": "fastapi"
+  },
+  "communication_style": {
+    "code_examples": "complete_and_working",
+    "explanations": "technical_when_appropriate",
+    "tone": "professional_but_friendly",
+    "shortcuts": {
+      "yp": "yes please",
+      "pc": "please continue"
+    }
+  },
+  "development_patterns": {
+    "session_start": "check knowledge graph with read_graph()",
+    "file_creation": "always add filepath comment at top",
+    "error_handling": "after 4 attempts, search for solution",
+    "work_style": "do few things, then pause for input"
+  }
+}

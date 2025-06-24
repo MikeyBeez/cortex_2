@@ -1,0 +1,65 @@
+{
+  "ecosystem_relationships": {
+    "projects": {
+      "current_focus": "cortex_2",
+      "integration_order": [
+        "cortex_2 core implementation",
+        "absorb nexus_2 knowledge graph",
+        "integrate with anna organs",
+        "mcp server deployment"
+      ]
+    },
+    "knowledge_flow": {
+      "sources": [
+        "claude interactions",
+        "project development",
+        "gemini consultations",
+        "external feedback"
+      ],
+      "storage": "knowledge graph",
+      "access": "cortex_2 modules"
+    },
+    "tool_relationships": {
+      "claude": {
+        "role": "primary development partner",
+        "capabilities": "code generation, architecture, problem solving",
+        "integration": "MCP servers"
+      },
+      "ollama": {
+        "role": "local LLM hosting",
+        "models": ["llama3.2", "deepseek-r1", "gemma:2b"],
+        "usage": "anna organs, local processing"
+      },
+      "redis": {
+        "role": "message bus",
+        "usage": "organ communication, queue management"
+      }
+    }
+  },
+  "development_workflow": {
+    "typical_session": [
+      "check knowledge graph",
+      "load relevant context",
+      "work on specific tasks",
+      "update knowledge graph",
+      "commit changes"
+    ],
+    "collaboration_style": {
+      "with_claude": "iterative development with frequent pauses",
+      "feedback_loop": "quick iterations with testing",
+      "documentation": "inline with development"
+    }
+  },
+  "future_vision": {
+    "ai_workforce": {
+      "concept": "Multiple specialized Annas working together",
+      "implementation": "Nexus orchestration of Anna swarm",
+      "benefit": "Parallel processing with specialized expertise"
+    },
+    "cognitive_os": {
+      "concept": "Cortex_2 as universal cognitive layer",
+      "features": "Dynamic loading, learning, persistence",
+      "integration": "Works with any AI system via MCP"
+    }
+  }
+}

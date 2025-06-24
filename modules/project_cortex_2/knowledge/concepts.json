@@ -1,0 +1,44 @@
+{
+  "cortex_2_concepts": {
+    "vision": "Transform AI memory from static storage to dynamic cognitive operating system",
+    "core_innovation": "Hot-swappable cognitive modules with self-loading intelligence",
+    
+    "key_concepts": {
+      "cognitive_modules": {
+        "definition": "Self-contained units of knowledge, capability, or behavior",
+        "types": ["expertise", "project", "identity", "tool"],
+        "lifecycle": ["discovery", "loading", "activation", "usage", "deactivation", "archival"]
+      },
+      
+      "identity_system": {
+        "definition": "Loadable personality and behavioral configurations",
+        "components": ["traits", "communication_style", "preferences", "persistent_memories"],
+        "use_cases": ["persona_switching", "context_adaptation", "multi_user_support"]
+      },
+      
+      "self_loading": {
+        "definition": "Autonomous detection and loading of required modules",
+        "strategies": ["reactive", "predictive", "scheduled", "associative"],
+        "learning": "Improves loading decisions based on usage patterns"
+      },
+      
+      "resource_management": {
+        "definition": "Intelligent memory allocation and optimization",
+        "features": ["token_counting", "compression", "tiered_storage", "eviction_policies"],
+        "goal": "Maximize capability within context window constraints"
+      }
+    },
+    
+    "architectural_layers": {
+      "cognitive_controller": "Top-level intelligence orchestrating all operations",
+      "core_services": ["identity_manager", "module_registry", "memory_layers", "resource_monitor"],
+      "storage_tiers": ["active_memory", "warm_storage", "cold_archive"]
+    },
+    
+    "key_differences_from_cortex_v1": {
+      "static_vs_dynamic": "V1 had fixed layers, V2 has dynamic modules",
+      "manual_vs_automatic": "V1 required manual operations, V2 self-manages",
+      "storage_vs_os": "V1 was storage system, V2 is cognitive operating system"
+    }
+  }
+}

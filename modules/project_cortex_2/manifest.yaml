@@ -1,0 +1,55 @@
+# /Users/bard/Code/cortex_2/modules/project_cortex_2/manifest.yaml
+# Cortex_2 Project Knowledge Module
+id: project_cortex_2
+version: 1.0.0
+name: Cortex_2 Project Context
+description: Complete knowledge about the Cortex_2 cognitive operating system project
+
+metadata:
+  author: MikeyBee
+  created: 2025-06-22
+  category: project
+  tags: [cortex, cognitive-os, memory-system, modules]
+  
+dependencies: []
+
+resources:
+  size_tokens: 15000
+  size_bytes: 60000
+  memory_required_mb: 20
+  load_time_estimate_ms: 50
+
+triggers:
+  keywords:
+    - cortex
+    - cortex_2
+    - cognitive operating system
+    - module system
+    - cognitive controller
+    - identity management
+    
+  context_patterns:
+    - project: cortex_2
+    - task: cortex_development
+    - domain: cognitive_systems
+
+content:
+  knowledge:
+    format: json
+    files:
+      - knowledge/architecture.json
+      - knowledge/api.json
+      - knowledge/module_system.json
+      - knowledge/roadmap.json
+      - knowledge/concepts.json
+      
+  patterns:
+    format: json
+    files:
+      - patterns/development_rules.json
+      - patterns/module_patterns.json
+      
+behavior:
+  auto_load: true
+  priority: high
+  cache_policy: persistent

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.mikeybee.cortex2</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/bard/.local/share/uv/tools/bin/uvicorn</string>
+        <string>cortex.app:app</string>
+        <string>--host</string>
+        <string>0.0.0.0</string>
+        <string>--port</string>
+        <string>8000</string>
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/bard/Code/cortex_2</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+        <key>PYTHONPATH</key>
+        <string>/Users/bard/Code/cortex_2/src</string>
+        <key>CORTEX_CONFIG</key>
+        <string>/Users/bard/Code/cortex_2/config/cortex.yaml</string>
+        <key>PATH</key>
+        <string>/Users/bard/.local/share/uv/tools/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/bard/Code/cortex_2/logs/cortex.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/bard/Code/cortex_2/logs/cortex-error.log</string>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+    
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
+</dict>
+</plist>
